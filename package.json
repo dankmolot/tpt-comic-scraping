@@ -1,0 +1,21 @@
+{
+  "name": "tpt-comic-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "coffee --compile --output dist/ src/ && node dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  },
+  "dependencies": {
+    "@ptkdev/logger": "^1.8.0",
+    "better-sqlite3": "^9.4.3",
+    "cheerio": "1.0.0-rc.12"
+  }
+}
